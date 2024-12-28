@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat Profile</title>
+    <style>
+      p {
+        margin: 20px;
+        font-family: Arial, sans-serif;
+        margin-bottom: 0px;
+      }
+      .Lose {
+        display: inline-block;
+        border-radius: 48px;
+        width: 130px;
+        margin-right: 15px; /* Adds space between image and text */
+      }
+      .Cat-info {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      .Name {
+        font-weight: bold;
+        font-size: 16px;
+      }
+      .Its,
+      .Rating {
+        color: grey;
+        font-size: 16px;
+      }
+      .Follow {
+        display: inline-block;
+        background-color: blue;
+        color: white;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Cat-info">
+      <img class="Lose" src="lose-number-1.png" alt="Oliver the cat" />
+      <div>
+        <p class="Name">Oliver</p>
+        <p class="Its">The cat</p>
+        <p class="Rating">Popular</p>
+      </div>
+      <button class="Follow">Follow</button>
+      <!-- Moved button into flexbox container -->
+    </div>
+  </body>
+</html>

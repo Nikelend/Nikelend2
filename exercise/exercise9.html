@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: purple;
+        height: 70px;
+        align-items: center;
+      }
+      .left-section {
+        width: 100px;
+        color: white;
+        margin-right: 250px;
+      }
+      .middle-section {
+        flex: 1;
+        border-radius: 50px;
+        text-align: center;
+      }
+      .right-section {
+        border-width: 2px;
+        border-style: solid;
+        border-color: white;
+        width: 100px;
+        color: white;
+      }
+      .placeholder {
+        height: 40px;
+        flex: 1;
+        border-radius: 40px;
+        width: 800px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">Home</div>
+      <div class="middle-section">
+        <input class="placeholder" type="text" placeholder="Search" />
+      </div>
+      <div class="right-section">Download</div>
+    </div>
+  </body>
+</html>
